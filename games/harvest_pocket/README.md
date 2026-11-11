@@ -1,5 +1,13 @@
 # Harvest Pocket 7.4.2 — Town Market Stability Patch
 
+<img src="assets/icon.svg" width="80" height="80" alt="Harvest Pocket icon">
+
+[![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/harvest_pocket.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/harvest_pocket.yml)
+[![License GPL-3.0-or-later](https://img.shields.io/badge/license-GPL--3.0--or--later-blue)](LICENSE)
+[![LeoMiniGames 0.6.2+](https://img.shields.io/badge/LeoMiniGames-0.6.2%2B-2358ab)](https://github.com/YoungLionOrganization/LeoMiniGames/releases)
+
+[All games](../../README.md#games) · [Get LeoMiniGames](https://github.com/YoungLionOrganization/LeoMiniGames/releases)
+
 Harvest Pocket is an official LeoMiniGames farming simulation designed for desktop and mobile, including low-end devices. Version 7.4.2 is a backward-compatible Town Market recovery/stability PATCH. It repairs interrupted v7.4.0/v7.4.1 day-transition saves that could leave mature crops effectively unharvestable, makes harvest/day/economy rollback exact, hardens malformed-save normalization, blocks hidden Farm input during transitions/other tabs, and retains the full Town Market, Smart Fields, Living Seasons, responsive-navigation and host-audio feature set.
 
 ## Highlights

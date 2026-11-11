@@ -1,5 +1,13 @@
 # Star Defender 6.4.0
 
+<img src="assets/icon.png" width="80" height="80" alt="Star Defender icon">
+
+[![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/star_defender.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/star_defender.yml)
+[![License GPL-3.0-or-later](https://img.shields.io/badge/license-GPL--3.0--or--later-blue)](LICENSE)
+[![LeoMiniGames 0.6.2+](https://img.shields.io/badge/LeoMiniGames-0.6.2%2B-2358ab)](https://github.com/YoungLionOrganization/LeoMiniGames/releases)
+
+[All games](../../README.md#games) · [Get LeoMiniGames](https://github.com/YoungLionOrganization/LeoMiniGames/releases)
+
 A substantially rebuilt space shooter with responsive touch movement, auto-fire, multiple enemy classes, bosses, shields, weapon upgrades, pickups and escalating waves. Classic Enhanced keeps the original Vol.4 interface/gameplay identity while adding LeoMiniGames v0.6.2 theme, save, lifecycle, localization and desktop/mobile integration.
 
 ## Build from the repository root

@@ -1,5 +1,13 @@
 # Orbital Commander 6.4.0
 
+<img src="assets/icon.png" width="80" height="80" alt="Orbital Commander icon">
+
+[![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/orbital_commander.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/orbital_commander.yml)
+[![License GPL-3.0-or-later](https://img.shields.io/badge/license-GPL--3.0--or--later-blue)](LICENSE)
+[![LeoMiniGames 0.6.2+](https://img.shields.io/badge/LeoMiniGames-0.6.2%2B-2358ab)](https://github.com/YoungLionOrganization/LeoMiniGames/releases)
+
+[All games](../../README.md#games) · [Get LeoMiniGames](https://github.com/YoungLionOrganization/LeoMiniGames/releases)
+
 The original Vol.4 active planetary-defense game, substantially expanded with five threat classes plus Dreadnought bosses, shield/credit economy, missile/shield/drone research, autosave, stats and full desktop/touch controls while retaining the classic HUD, battlefield and command-bar layout.
 
 ## Build from the repository root

@@ -44,3 +44,4 @@ Thumbs.db
 *.key
 *.p12
 *.pfx
+raw_admin_token

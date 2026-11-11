@@ -1,5 +1,13 @@
 # Snake Circuit 6.4.0
 
+<img src="assets/icon.png" width="80" height="80" alt="Snake Circuit icon">
+
+[![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/snake_circuit.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/snake_circuit.yml)
+[![License GPL-3.0-or-later](https://img.shields.io/badge/license-GPL--3.0--or--later-blue)](LICENSE)
+[![LeoMiniGames 0.6.2+](https://img.shields.io/badge/LeoMiniGames-0.6.2%2B-2358ab)](https://github.com/YoungLionOrganization/LeoMiniGames/releases)
+
+[All games](../../README.md#games) · [Get LeoMiniGames](https://github.com/YoungLionOrganization/LeoMiniGames/releases)
+
 Classic Vol.4 Snake campaign preserved with reliable desktop focus, WASD/arrows, Space/P pause, R restart, mouse/swipe controls, obstacles, levels, scoring and autosave.
 
 ## Build from the repository root
