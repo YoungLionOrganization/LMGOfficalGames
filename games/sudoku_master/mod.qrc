@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="/">
+    <file>GameButton.qml</file>
+    <file>LICENSE</file>
+    <file>Main.qml</file>
+    <file>assets/icon.png</file>
+    <file>i18n/az.json</file>
+    <file>i18n/de.json</file>
+    <file>i18n/en.json</file>
+    <file>i18n/es.json</file>
+    <file>i18n/fr.json</file>
+    <file>i18n/pt.json</file>
+    <file>i18n/ru.json</file>
+    <file>i18n/tr.json</file>
+    <file>manifest.json</file>
+    <file>sfx/bad.wav</file>
+    <file>sfx/hint.wav</file>
+    <file>sfx/place.wav</file>
+    <file>sfx/start.wav</file>
+    <file>sfx/win.wav</file>
+  </qresource>
+</RCC>

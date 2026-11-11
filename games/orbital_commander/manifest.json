@@ -1,0 +1,53 @@
+{
+  "id": "orbital_commander",
+  "name": "Orbital Commander",
+  "version": "6.4.0",
+  "author": "YoungLion",
+  "category": "Action",
+  "icon": "ORB",
+  "icon_path": "assets/icon.png",
+  "description": "The original Vol.4 active planetary-defense game, substantially expanded with five threat classes plus Dreadnought bosses, shield/credit economy, missile/shield/drone research, autosave, stats and full desktop/touch controls while retaining the classic HUD, battlefield and command-bar layout.",
+  "package_format": "rcc-v1",
+  "entry": "Main.qml",
+  "min_app_version": "0.6.2",
+  "publisher": "YoungLion",
+  "license": "GPL-3.0-or-later",
+  "license_file": "LICENSE",
+  "source_available": true,
+  "default_locale": "en",
+  "locales": [
+    "en",
+    "tr",
+    "az",
+    "de",
+    "es",
+    "fr",
+    "ru",
+    "pt"
+  ],
+  "plugin_level": 2,
+  "save_version": 1,
+  "orientation": "any",
+  "capabilities": [
+    "theme",
+    "save",
+    "settings",
+    "i18n",
+    "input",
+    "lifecycle",
+    "audio",
+    "stats",
+    "achievements",
+    "haptics",
+    "random"
+  ],
+  "tags": [
+    "classic-enhanced",
+    "desktop",
+    "mobile",
+    "official",
+    "official-quality",
+    "vol6",
+    "younglion"
+  ]
+}

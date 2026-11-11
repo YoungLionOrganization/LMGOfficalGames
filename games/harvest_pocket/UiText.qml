@@ -1,0 +1,11 @@
+import QtQuick
+Text {
+    property string colorToken: "color.text"
+    property string sizeToken: "metric.font.md"
+    color: GameTheme.color(colorToken)
+    font.pixelSize: Math.max(8, GameTheme.number(sizeToken))
+    wrapMode: Text.WordWrap
+    textFormat: Text.PlainText
+    lineHeightMode: Text.ProportionalHeight
+    lineHeight: 1.08
+}

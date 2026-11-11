@@ -1,0 +1,46 @@
+# Build and package output
+build/
+dist/
+release/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+*.rcc
+*.sha256
+*.zip
+*.7z
+*.tar.gz
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Local tooling and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+.vscode/
+.idea/
+*.user
+*.log
+*.bak
+*.orig
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx

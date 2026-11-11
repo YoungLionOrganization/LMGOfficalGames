@@ -1,0 +1,28 @@
+name: Reversi Arena
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'games/reversi_arena/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/reversi_arena.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  pull_request:
+    paths:
+      - 'games/reversi_arena/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/reversi_arena.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: ./.github/workflows/_build-game.yml
+    with:
+      game: reversi_arena

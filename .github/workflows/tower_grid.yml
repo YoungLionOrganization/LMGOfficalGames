@@ -1,0 +1,28 @@
+name: Tower Grid
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'games/tower_grid/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/tower_grid.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  pull_request:
+    paths:
+      - 'games/tower_grid/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/tower_grid.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: ./.github/workflows/_build-game.yml
+    with:
+      game: tower_grid

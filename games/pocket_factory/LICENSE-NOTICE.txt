@@ -1,0 +1,3 @@
+SPDX-License-Identifier: GPL-3.0-or-later
+
+This official YoungLion LeoMiniGames mod is distributed under GPL-3.0-or-later.

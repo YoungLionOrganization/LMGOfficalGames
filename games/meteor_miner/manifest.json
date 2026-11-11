@@ -1,0 +1,53 @@
+{
+  "id": "meteor_miner",
+  "name": "Meteor Miner",
+  "version": "6.4.0",
+  "author": "YoungLion",
+  "category": "Arcade",
+  "icon": "MET",
+  "icon_path": "assets/icon.png",
+  "description": "An arcade mining shooter with collectible ore, laser upgrades, hull repair, escalating sectors and touch ship movement. Classic Enhanced keeps the original Vol.4 interface/gameplay identity while adding LeoMiniGames v0.6.2 theme, save, lifecycle, localization and desktop/mobile integration.",
+  "package_format": "rcc-v1",
+  "entry": "Main.qml",
+  "min_app_version": "0.6.2",
+  "publisher": "YoungLion",
+  "license": "GPL-3.0-or-later",
+  "license_file": "LICENSE",
+  "source_available": true,
+  "default_locale": "en",
+  "locales": [
+    "en",
+    "tr",
+    "az",
+    "de",
+    "es",
+    "fr",
+    "ru",
+    "pt"
+  ],
+  "plugin_level": 2,
+  "save_version": 1,
+  "orientation": "any",
+  "capabilities": [
+    "theme",
+    "save",
+    "settings",
+    "i18n",
+    "input",
+    "lifecycle",
+    "audio",
+    "stats",
+    "achievements",
+    "haptics",
+    "random"
+  ],
+  "tags": [
+    "classic-enhanced",
+    "desktop",
+    "mobile",
+    "official",
+    "official-quality",
+    "vol6",
+    "younglion"
+  ]
+}

@@ -1,0 +1,28 @@
+name: Dungeon Delver
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'games/dungeon_delver/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/dungeon_delver.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  pull_request:
+    paths:
+      - 'games/dungeon_delver/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/dungeon_delver.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: ./.github/workflows/_build-game.yml
+    with:
+      game: dungeon_delver

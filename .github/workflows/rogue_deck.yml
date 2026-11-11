@@ -1,0 +1,28 @@
+name: Rogue Deck
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'games/rogue_deck/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/rogue_deck.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  pull_request:
+    paths:
+      - 'games/rogue_deck/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/rogue_deck.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: ./.github/workflows/_build-game.yml
+    with:
+      game: rogue_deck

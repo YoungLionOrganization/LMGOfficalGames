@@ -1,0 +1,28 @@
+name: Meteor Miner
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'games/meteor_miner/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/meteor_miner.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  pull_request:
+    paths:
+      - 'games/meteor_miner/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/meteor_miner.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: ./.github/workflows/_build-game.yml
+    with:
+      game: meteor_miner

@@ -1,0 +1,28 @@
+name: Orbital Commander
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'games/orbital_commander/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/orbital_commander.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  pull_request:
+    paths:
+      - 'games/orbital_commander/**'
+      - 'tools/build_game.py'
+      - '.github/workflows/orbital_commander.yml'
+      - '.github/workflows/_build-game.yml'
+      - '.gitattributes'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: ./.github/workflows/_build-game.yml
+    with:
+      game: orbital_commander

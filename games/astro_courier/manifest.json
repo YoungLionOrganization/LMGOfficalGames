@@ -1,0 +1,71 @@
+{
+  "id": "astro_courier",
+  "name": "Astro Courier",
+  "version": "6.4.0",
+  "author": "YoungLion",
+  "category": "Arcade",
+  "description": "Expanded turn-based space courier with theme-aware SVG map assets, fog/scanning, pirates and combat, hazards/salvage, station contracts, ship upgrades, deadlines and multi-sector progression.",
+  "package_format": "rcc-v1",
+  "entry": "Main.qml",
+  "icon": "AST",
+  "icon_path": "assets/icon.png",
+  "min_app_version": "0.6.2",
+  "license": "GPL-3.0-or-later",
+  "license_file": "LICENSE",
+  "source_available": true,
+  "default_locale": "en",
+  "locales": [
+    "en",
+    "tr",
+    "az",
+    "de",
+    "es",
+    "fr",
+    "ru",
+    "pt"
+  ],
+  "tags": [
+    "arcade",
+    "classic-enhanced",
+    "desktop",
+    "gameplay-fix",
+    "grid",
+    "input",
+    "mobile",
+    "official",
+    "official-quality",
+    "space",
+    "ui-polish",
+    "vol6",
+    "younglion"
+  ],
+  "capabilities": [
+    "achievements",
+    "events",
+    "haptics",
+    "i18n",
+    "input",
+    "lifecycle",
+    "random",
+    "save",
+    "settings",
+    "stats",
+    "theme"
+  ],
+  "save_version": 1,
+  "plugin_level": 2,
+  "orientation": "any",
+  "settings_schema": {
+    "showHints": {
+      "type": "bool",
+      "default": true,
+      "label": "Show hints"
+    },
+    "reducedMotion": {
+      "type": "bool",
+      "default": false,
+      "label": "Reduced motion"
+    }
+  },
+  "publisher": "YoungLion"
+}

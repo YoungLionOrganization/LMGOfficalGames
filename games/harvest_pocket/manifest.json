@@ -1,0 +1,74 @@
+{
+  "id": "harvest_pocket",
+  "name": "Harvest Pocket",
+  "version": "7.4.2",
+  "author": "YoungLion",
+  "publisher": "YoungLion",
+  "category": "Simulation",
+  "description": "Town Market recovery patch: repairs interrupted v7.4.0 day-transition saves, makes harvest and Next Day commits rollback-safe, adds an explicit harvest action, and strengthens runtime-logic regression coverage while preserving v7.4 save compatibility.",
+  "package_format": "rcc-v1",
+  "entry": "Main.qml",
+  "icon": "HAR",
+  "icon_path": "assets/icon.svg",
+  "min_app_version": "0.6.2",
+  "license": "GPL-3.0-or-later",
+  "license_file": "LICENSE",
+  "source_available": true,
+  "default_locale": "en",
+  "locales": [
+    "en",
+    "tr",
+    "az",
+    "ru",
+    "de",
+    "fr",
+    "es",
+    "pt",
+    "zh",
+    "ja"
+  ],
+  "tags": [
+    "animated",
+    "cozy",
+    "desktop",
+    "farming",
+    "low-end",
+    "mobile",
+    "official",
+    "official-quality",
+    "responsive",
+    "save",
+    "simulation",
+    "svg",
+    "younglion"
+  ],
+  "capabilities": [
+    "achievements",
+    "audio",
+    "events",
+    "haptics",
+    "i18n",
+    "input",
+    "lifecycle",
+    "random",
+    "save",
+    "settings",
+    "stats",
+    "theme"
+  ],
+  "save_version": 1,
+  "plugin_level": 2,
+  "orientation": "any",
+  "settings_schema": {
+    "showHints": {
+      "type": "bool",
+      "default": true,
+      "label": "Show hints"
+    },
+    "reducedMotion": {
+      "type": "bool",
+      "default": false,
+      "label": "Reduced motion"
+    }
+  }
+}
