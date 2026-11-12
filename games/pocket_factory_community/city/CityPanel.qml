@@ -12,7 +12,6 @@ Column {
     property var buildingLevels: []
     property int researchLevel: 0
     property string currencyName
-    property string summary
     property string offlineSummary
     property int selectedZone: -1
     property int selectedLine: 0
@@ -36,7 +35,6 @@ Column {
     })[name]) }
 
     CityText { width: parent.width; heading: true; text: root.t("district." + root.city.district, Data.names[root.city.district]); visible: root.page === 0 }
-    CityText { width: parent.width; text: root.summary; visible: root.page === 0 && text.length > 0 }
     CityText { width: parent.width; text: root.offlineSummary; visible: root.page === 0 && text.length > 0 }
     Row {
         width: parent.width

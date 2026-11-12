@@ -59,5 +59,6 @@
     <file alias="city/assets/tile_6_2.svg">city/assets/tile_6_2.svg</file>
     <file alias="CommunityView.qml">CommunityView.qml</file>
     <file alias="city/assets/terrain_city.svg">city/assets/terrain_city.svg</file>
+    <file alias="city/FactoryHud.qml">city/FactoryHud.qml</file>
   </qresource>
 </RCC>

@@ -61,10 +61,24 @@ Item {
         active: root.compact
         sourceComponent: navComponent
     }
+    City.FactoryHud {
+        id: hud
+        z: 2
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.leftMargin: 10
+        anchors.rightMargin: 10
+        y: Math.max(0, Viewport.safeTop) + (topNav.active ? topNav.height + 6 : 0)
+        height: implicitHeight
+        translate: root.translate
+        line: root.game.dashboard[root.game.bottleneck()]
+        balance: root.t("community_hud", "%1 coins · estimated %2 coins/s")
+            .arg(root.fmt(root.game.coins)).arg(root.fmt(root.game.forecast(-1, 0)))
+    }
     Flickable {
         id: scroll
         anchors.fill: parent
-        anchors.topMargin: Math.max(0, Viewport.safeTop) + (topNav.active ? topNav.height + 8 : 0)
+        anchors.topMargin: hud.y + hud.height + 4
         anchors.bottomMargin: Math.max(0, Viewport.safeBottom) + (bottomNav.active ? bottomNav.height + 8 : 0)
         clip: true
         contentWidth: width
@@ -117,8 +131,6 @@ Item {
                 bottleneck: root.game.bottleneck()
                 paused: root.game.suspended
                 offlineSummary: root.game.offlineText
-                summary: root.t("community_hud", "%1 coins · estimated %2 coins/s")
-                    .arg(root.fmt(root.game.coins)).arg(root.fmt(root.game.forecast(-1, 0)))
                 onZoneSelected: function(zone) { root.game.selectZone(zone) }
                 onLineSelected: function(line) { root.game.selectLine(line); scroll.contentY = Math.max(0, lineCard.y - 6) }
             }
