@@ -6,7 +6,7 @@
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-builds-2088ff?logo=githubactions)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions)
 
 Open-source official YoungLion games for [LeoMiniGames](https://github.com/YoungLionOrganization/LeoMiniGames).
-Each game is a Level 2 QML plugin packaged as an RCC for LeoMiniGames 0.6.2 or newer.
+Each game is a Level 2 QML plugin packaged as an RCC. See each game's README for its minimum LeoMiniGames version.
 
 ## Games
 
@@ -22,7 +22,7 @@ Each game is a Level 2 QML plugin packaged as an RCC for LeoMiniGames 0.6.2 or n
 | [Merge Foundry](games/merge_foundry/) | 6.4.0 | Puzzle | [![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/merge_foundry.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/merge_foundry.yml) |
 | [Meteor Miner](games/meteor_miner/) | 6.4.0 | Arcade | [![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/meteor_miner.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/meteor_miner.yml) |
 | [Orbital Commander](games/orbital_commander/) | 6.4.0 | Action | [![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/orbital_commander.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/orbital_commander.yml) |
-| [Pocket Factory](games/pocket_factory/) | 3.2.0 | Management | [![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/pocket_factory.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/pocket_factory.yml) |
+| [Pocket Factory Community](games/pocket_factory_community/) | 4.0.0 | Management | [![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/pocket_factory_community.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/pocket_factory_community.yml) |
 | [Reversi Arena](games/reversi_arena/) | 6.4.0 | Strategy | [![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/reversi_arena.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/reversi_arena.yml) |
 | [Rogue Deck](games/rogue_deck/) | 6.4.0 | Card | [![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/rogue_deck.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/rogue_deck.yml) |
 | [Snake Circuit](games/snake_circuit/) | 6.4.0 | Arcade | [![Build status](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/snake_circuit.yml/badge.svg?branch=main)](https://github.com/YoungLionOrganization/LMGOfficalGames/actions/workflows/snake_circuit.yml) |

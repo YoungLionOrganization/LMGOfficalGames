@@ -1,19 +1,21 @@
-name: Pocket Factory
+name: Pocket Factory Community
 
 on:
   push:
     branches: [main]
     paths:
-      - 'games/pocket_factory/**'
+      - 'games/pocket_factory_community/**'
       - 'tools/build_game.py'
-      - '.github/workflows/pocket_factory.yml'
+      - 'tools/test_pocket_factory_city.mjs'
+      - '.github/workflows/pocket_factory_community.yml'
       - '.github/workflows/_build-game.yml'
       - '.gitattributes'
   pull_request:
     paths:
-      - 'games/pocket_factory/**'
+      - 'games/pocket_factory_community/**'
       - 'tools/build_game.py'
-      - '.github/workflows/pocket_factory.yml'
+      - 'tools/test_pocket_factory_city.mjs'
+      - '.github/workflows/pocket_factory_community.yml'
       - '.github/workflows/_build-game.yml'
       - '.gitattributes'
   workflow_dispatch:
@@ -25,4 +27,4 @@ jobs:
   build:
     uses: ./.github/workflows/_build-game.yml
     with:
-      game: pocket_factory
+      game: pocket_factory_community

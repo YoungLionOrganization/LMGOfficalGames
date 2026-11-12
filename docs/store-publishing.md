@@ -21,8 +21,7 @@ when there is a release to publish. Use `--token-file` for a different location.
 A version check uses the public catalog and requires neither the token nor Qt.
 
 Versions are compared numerically as `major.minor.patch`. The command skips
-equal or older local versions. It also skips Pocket Factory when the store lists
-Megafactory `3.0.0` because the local GPL `3.2.0` edition shares its ID.
+equal or older local versions. Pocket Factory Community is distributed through GitHub and is excluded from store publishing.
 
 For each pending release, the command validates and builds the RCC, uploads it
 and its icon, updates the store listing, and confirms the version and SHA-256.

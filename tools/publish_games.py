@@ -71,6 +71,8 @@ def version_parts(version):
 
 
 def release_action(manifest, remote):
+    if manifest["id"] == "pocket_factory_community":
+        return "GitHub only"
     if remote is None:
         return "new"
     local_version = version_parts(manifest["version"])
@@ -173,6 +175,9 @@ def main():
             if manifest["id"] != game_id:
                 raise ValueError("Manifest ID must match the game folder.")
             version_parts(manifest["version"])
+            if game_id == "pocket_factory_community":
+                print(f"{game_id}: GitHub only")
+                continue
             remote = store_release(game_id)
             action = release_action(manifest, remote)
             remote_version = remote["version"] if remote else "missing"
