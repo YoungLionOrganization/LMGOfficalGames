@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: '3.13'
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
-        if: inputs.game == 'gem_cascade' || inputs.game == 'harvest_pocket'
+        if: inputs.game == 'gem_cascade' || inputs.game == 'harvest_pocket' || inputs.game == 'pocket_factory_community'
         with:
           node-version: '24'
           package-manager-cache: false
@@ -46,6 +46,9 @@ jobs:
           python tools/test_gameplay.py
           python tools/test_migration.py
           python tools/meta_audit.py
+      - name: Validate Pocket Factory Community
+        if: inputs.game == 'pocket_factory_community'
+        run: node tools/test_pocket_factory_city.mjs games/pocket_factory_community
       - name: Install Qt resource compiler
         run: |
           sudo apt-get update
